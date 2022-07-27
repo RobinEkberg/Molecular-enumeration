@@ -1,4 +1,7 @@
-# Molecular enumeration and Lipinski Ro5
-The code takes a molecular core and enumerates it to create a large library of compounds. These compounds can then be run through a simple Lipinski filter to sort out the molecules that fullfill the Lipinski Ro5.
+# Molecular enumeration
+The code was created to generate a large number of molecules based on SMIRKS reactions. This allows for creation of a library of molecules that can be filtered using a Lipinski-like filter. The molecules can later be docked using AutoDock Vina. If another docking program is to be used, the code writes **.sdf**-files for each generated conformer.
+
+# Input
+All molecule input can be done using SMILES or .mol-files.
 
 
